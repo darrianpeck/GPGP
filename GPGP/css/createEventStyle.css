@@ -1,3 +1,20 @@
-form {
+#form {
   background-color: rgba(29, 33, 59, 0.8745098039);
+  color: white;
+  margin: 75px;
+  padding: 75px;
+  width: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#form h2 {
+  font-size: 35px;
+}
+#form hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#form p {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=createEventStyle.css.map */
