@@ -8,7 +8,7 @@
         }
         else{
             //false branch, INVALID user, return them to create event page or home page
-            header("Location: createEventREMAKE.php");    //currently taking user to create event page, will change to login page 
+            header("Location: login.php");   
         }
         */
 
@@ -226,8 +226,8 @@
     <title>Great Plains Games Players</title>
 
     <link rel="icon" type="image/x-icon" href="images/GPGP_Logo_Transparent_white.png">
-    <link rel="stylesheet" href="./css/createEventStyle.css">
-    <link rel="stylesheet" href="./css/home-stylesheet.css">
+    <link rel="stylesheet" href="./stylesheets/createEventStyle.css">
+    <link rel="stylesheet" href="./stylesheets/home-stylesheet.css">
     <link rel="stylesheet" href="https://use.typekit.net/lqa6jva.css">
     <script src="javascript/functions.js"></script>
 
@@ -251,12 +251,12 @@
 
     <body>
     <nav>
-        <a href="index.html" class="GPGP-large">GPGP</a>
+        <a href="index.php" class="GPGP-large">GPGP</a>
 
         <div class="menu-links">
             <ul>
                 <li><a href="index.html">About</a></li>
-                <li><a href="event.html">Events</a></li>
+                <li><a href="gpgp-event-info.php">Events</a></li>
                 <li><a href="#">Links</a></li>
             </ul>
 
